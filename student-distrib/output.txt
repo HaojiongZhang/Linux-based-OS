@@ -1,0 +1,25 @@
+Makefile:39: Makefile.dep: No such file or directory
+make: Warning: File `Makefile.dep' has modification time 5.2 s in the future
+cp3_syscall.c: In function ‘sys_execute’:
+cp3_syscall.c:107: warning: unused variable ‘fname’
+cp3_syscall.c: In function ‘open’:
+cp3_syscall.c:437: warning: passing argument 3 of ‘cpyFileDescriptor’ discards qualifiers from pointer target type
+cp3_syscall.c:446: warning: passing argument 3 of ‘cpyFileDescriptor’ discards qualifiers from pointer target type
+cp3_syscall.c: In function ‘vidmap’:
+cp3_syscall.c:583: warning: comparison between pointer and integer
+cp3_syscall.c:583: warning: comparison between pointer and integer
+fileSystem.c: In function ‘read_dentry_by_name’:
+fileSystem.c:43: warning: unused variable ‘tlen’
+fileSystem.c: In function ‘file_read’:
+fileSystem.c:207: error: ‘PCB_struct_t’ undeclared (first use in this function)
+fileSystem.c:207: error: (Each undeclared identifier is reported only once
+fileSystem.c:207: error: for each function it appears in.)
+fileSystem.c:207: error: ‘curPCB’ undeclared (first use in this function)
+fileSystem.c:209: error: ‘pid’ undeclared (first use in this function)
+fileSystem.c:210: error: expected expression before ‘)’ token
+fileSystem.c: In function ‘dir_read’:
+fileSystem.c:276: error: ‘PCB_struct_t’ undeclared (first use in this function)
+fileSystem.c:276: error: ‘curPCB’ undeclared (first use in this function)
+fileSystem.c:278: error: ‘pid’ undeclared (first use in this function)
+fileSystem.c:279: error: expected expression before ‘)’ token
+make: *** [fileSystem.o] Error 1
